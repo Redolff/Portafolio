@@ -34,7 +34,7 @@ const Contacto = () => {
             e.preventDefault();
             setButtonText("Sending...")
             let response = await fetch(
-                "https://portafolio-five-peach.vercel.app/contact",
+                "https://backend-portafolio-liard.vercel.app/contact",
                 {
                     method: 'POST',
                     headers:{
