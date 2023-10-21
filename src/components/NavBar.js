@@ -28,7 +28,7 @@ const NavBar = () => {
         <Navbar expand='md' className={scroll ? "scrolled" : ""}>
             <Container>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="me-auto">
                         <Nav.Link
                             href="#home"
                             className={

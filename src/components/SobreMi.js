@@ -30,9 +30,13 @@ const SobreMi = () => {
                 I consider myself a proactive person, a great team worker and with the
                 ability to identify and solve various problems.
             </p>
-            <Button className="button-resume" onClick={handleDownload}>
-                Download Resume
-            </Button>
+            <div 
+                className={`container-resume scrollEffectResume ${visible && "visible"}`}
+            >  
+                <Button className="button-resume" onClick={handleDownload}>
+                    Download Resume
+                </Button>
+            </div>
         </div>
     )
 }

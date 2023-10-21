@@ -1,5 +1,5 @@
 import { Button, Col, Row } from "react-bootstrap";
-import img from "../assets/me.png"
+import img from "../assets/porta.jpg"
 
 const ContainerInfo = () => {
 
@@ -18,8 +18,8 @@ const ContainerInfo = () => {
                   skills, and you will be able to see how I can contribute to your
                   project.
                 </p>
-                <a href="#contact" className="d-flex justify-content-center">
-                  <Button className="mt-3 btn-style" variant="primary">
+                <a href="#contact" className="d-flex justify-content-center cont">
+                  <Button className="mt-3" variant="primary">
                     Contact
                   </Button>
                 </a>
