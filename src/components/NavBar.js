@@ -65,7 +65,7 @@ const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/federico-redolfo/" target="blank">
+                            <a href="https://www.linkedin.com/in/federico-nahuel-redolfo/" target="blank">
                                 <i className="fa fa-linkedin" aria-hidden='true'></i>
                             </a>
                             <a href="https://github.com/Redolff" target="blank">

@@ -4,6 +4,7 @@ import node from "../assets/nodejs.png"
 import java from "../assets/java.png"
 import php from "../assets/php.png"
 import js from "../assets/js.png"
+import ts from '../assets/typescript.png'
 import css from "../assets/css.png"
 import html from "../assets/html.png"
 import bs from "../assets/bootstrap.png"
@@ -68,6 +69,14 @@ const Tecnologias = () => {
                             <Card.Img variant="top" src={js} />
                             <Card.Body>
                                 <Card.Title>Javascript</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </ListGroup.Item>
+                    <ListGroup.Item className="col list-group-style" >
+                        <Card className="card-style">
+                            <Card.Img variant="top" src={ts} />
+                            <Card.Body>
+                                <Card.Title>TypeScript</Card.Title>
                             </Card.Body>
                         </Card>
                     </ListGroup.Item>

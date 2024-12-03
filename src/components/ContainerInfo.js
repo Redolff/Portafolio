@@ -1,5 +1,5 @@
 import { Button, Col, Row } from "react-bootstrap";
-import img from "../assets/porta.jpg"
+import imgPortafolio from '../assets/portafolio.jpg'
 
 const ContainerInfo = () => {
 
@@ -27,7 +27,7 @@ const ContainerInfo = () => {
             </Col>
             <Col md="2"></Col>
             <Col xs lg="4">
-              <img className="img-me" src={img} alt="me"/>
+              <img className="img-me" src={imgPortafolio} alt="me"/>
             </Col>
           </Row>
         </div>

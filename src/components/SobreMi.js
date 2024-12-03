@@ -1,6 +1,6 @@
 import { Button } from 'react-bootstrap';
 import { useScrollEffect } from '../hooks/useScrollEfect';
-import myResume from '../resume/FedericoRedolfo.pdf'
+import myResume from '../resume/Federico-Redolfo-CV.pdf';
 
 const SobreMi = () => {
     
@@ -9,7 +9,7 @@ const SobreMi = () => {
     function handleDownload() {
         const link = document.createElement("a")
         link.href = myResume;
-        link.download = "FedericoRedolfo.pdf"
+        link.download = "Federico-Redolfo-CV.pdf"
         link.click()
     }
 
