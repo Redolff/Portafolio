@@ -1,5 +1,5 @@
 import { Button, Col, Row } from "react-bootstrap";
-import imgPortafolio from '../assets/portafolio.jpg'
+import imgPortafolio from '../assets/img-portafolio.jpg'
 
 const ContainerInfo = () => {
 
