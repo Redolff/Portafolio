@@ -1,6 +1,6 @@
 import { Col, Row, Button } from "react-bootstrap"
 import { useScrollEffect } from "../hooks/useScrollEfect"
-import proj1 from "../assets/ProfileHub.png";
+import proj1 from "../assets/profileHub.png";
 import proj2 from "../assets/reactShop.png";
 import proj3 from "../assets/SportsClothing.png";
 import react from "../assets/react.png";
