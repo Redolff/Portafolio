@@ -1,7 +1,7 @@
 import { Col, Row, Button } from "react-bootstrap"
 import { useScrollEffect } from "../hooks/useScrollEfect"
-import proj1 from "../assets/SharkGames.png";
-import proj2 from "../assets/ShoppingCart.png";
+import proj1 from "../assets/ProfileHub.png";
+import proj2 from "../assets/reactShop.png";
 import proj3 from "../assets/SportsClothing.png";
 import react from "../assets/react.png";
 import bootstrap from "../assets/bootstrap.png";
@@ -11,6 +11,7 @@ import js from "../assets/js.png";
 import node from "../assets/nodejs.png";
 import php from "../assets/php.png";
 import mysql from "../assets/mysql.png";
+import typescript from "../assets/typescript.png";
 
 const Proyectos = () => {
 
@@ -24,20 +25,21 @@ const Proyectos = () => {
             <h1>Last Projects</h1>
             <Row className="individual-project d-flex mb-5">
                 <Col className="img-project">
-                    <img className="rounded" src={proj1} alt="SharkGames"/>
+                    <img className="rounded" src={proj1} alt="ProfileHub"/>
                 </Col>
                 <Col className="project1-info project-info">
                     <div>
-                        <h4>SharkGames</h4>
+                        <h4>ProfileHub</h4>
                         <div className="d-flex icons-proyect">
-                            <img src={js} alt="Javascript" />
+                            <img src={react} alt="React" />
+                            <img src={typescript} alt="TypeScript" />
                             <img src={css} alt="CSS" />
                             <img src={html} alt="HTML" />
                         </div>
                         <div className="links-projects">
                             <Button variant="primary">
                                 <a
-                                href="https://github.com/Redolff/SharkGames"
+                                href="https://github.com/Redolff/crud-react-redux"
                                 target="_blank"
                                 rel="noreferrer"
                                 >
@@ -51,17 +53,18 @@ const Proyectos = () => {
             <Row className="individual-project d-flex mb-5">
                 <Col className="project-info">
                     <div>
-                        <h4>ShoppingCart</h4>
+                        <h4>ShopCart</h4>
                         <div className="d-flex icons-proyect">
-                            <img src={react} alt="react" />
+                            <img src={react} alt="React" />
                             <img src={node} alt="NodeJS" />
                             <img src={css} alt="CSS" />
                             <img src={bootstrap} alt="bootstrap" />
+                            <img src={html} alt="HTML"/>
                         </div>
                         <div className="links-projects">
                             <Button variant="primary">
                                 <a
-                                href="https://github.com/Redolff/Shopping-cart"
+                                href="https://github.com/Redolff/Tienda-de-compras"
                                 target="_blank"
                                 rel="noreferrer"
                                 >
@@ -72,7 +75,7 @@ const Proyectos = () => {
                     </div>
                 </Col>
                 <Col className="img-project">
-                    <img className="rounded" src={proj2} alt="ShoppingCart" />
+                    <img className="rounded" src={proj2} alt="ShopCart" />
                 </Col>
             </Row>
             <Row className="individual-project d-flex mb-5">
