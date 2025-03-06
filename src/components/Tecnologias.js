@@ -10,6 +10,8 @@ import html from "../assets/html.png"
 import bs from "../assets/bootstrap.png"
 import git from "../assets/git.png"
 import mysql from "../assets/mysql.png"
+import postgresql from "../assets/postgreSQL.png"
+import tailwindcss from "../assets/tailwindcss.png"
 import { useScrollEffect } from "../hooks/useScrollEfect"
 
 const Tecnologias = () => {
@@ -66,6 +68,14 @@ const Tecnologias = () => {
                     </ListGroup.Item>
                     <ListGroup.Item className="col list-group-style" >
                         <Card className="card-style">
+                            <Card.Img variant="top" src={postgresql} />
+                            <Card.Body>
+                                <Card.Title>PostgreSQL</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </ListGroup.Item>
+                    <ListGroup.Item className="col list-group-style" >
+                        <Card className="card-style">
                             <Card.Img variant="top" src={js} />
                             <Card.Body>
                                 <Card.Title>Javascript</Card.Title>
@@ -101,6 +111,14 @@ const Tecnologias = () => {
                             <Card.Img variant="top" src={bs} />
                             <Card.Body>
                                 <Card.Title>Bootstrap</Card.Title>
+                            </Card.Body>
+                        </Card>
+                    </ListGroup.Item>
+                    <ListGroup.Item className="col list-group-style">
+                        <Card className="card-style">
+                            <Card.Img variant="top" src={tailwindcss} />
+                            <Card.Body>
+                                <Card.Title>Tailwind CSS</Card.Title>
                             </Card.Body>
                         </Card>
                     </ListGroup.Item>

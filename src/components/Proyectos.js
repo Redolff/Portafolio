@@ -6,12 +6,13 @@ import proj3 from "../assets/SportsClothing.png";
 import react from "../assets/react.png";
 import bootstrap from "../assets/bootstrap.png";
 import css from "../assets/css.png";
-import html from "../assets/html.png";
 import js from "../assets/js.png";
 import node from "../assets/nodejs.png";
 import php from "../assets/php.png";
 import mysql from "../assets/mysql.png";
-import typescript from "../assets/typescript.png";
+import typescript from "../assets/typescript.png"
+import tailwindcss from "../assets/tailwindcss.png"
+import javascript from "../assets/js.png"
 
 const Proyectos = () => {
 
@@ -31,10 +32,10 @@ const Proyectos = () => {
                     <div>
                         <h4>ProfileHub</h4>
                         <div className="d-flex icons-proyect">
-                            <img src={react} alt="React" />
-                            <img src={typescript} alt="TypeScript" />
+                            <img src={react} alt="react" />
+                            <img src={typescript} alt="typescript" />
                             <img src={css} alt="CSS" />
-                            <img src={html} alt="HTML" />
+                            <img src={tailwindcss} alt="Tailwind CSS" />
                         </div>
                         <div className="links-projects">
                             <Button variant="primary">
@@ -46,6 +47,15 @@ const Proyectos = () => {
                                     More Info <i className="fa fa-github" aria-hidden="true"></i>
                                 </a>
                             </Button>
+                            <Button variant="primary">
+                                <a
+                                    href="https://profilehub-one.vercel.app/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Visit <i className="fa-regular fa-eye" aria-hidden="true"></i>
+                                </a>
+                            </Button>
                         </div>
                     </div>
                 </Col>
@@ -55,11 +65,11 @@ const Proyectos = () => {
                     <div>
                         <h4>ShopCart</h4>
                         <div className="d-flex icons-proyect">
-                            <img src={react} alt="React" />
+                            <img src={react} alt="react" />
                             <img src={node} alt="NodeJS" />
                             <img src={css} alt="CSS" />
+                            <img src={javascript} alt="javascript" />
                             <img src={bootstrap} alt="bootstrap" />
-                            <img src={html} alt="HTML"/>
                         </div>
                         <div className="links-projects">
                             <Button variant="primary">
@@ -68,7 +78,16 @@ const Proyectos = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 >
-                                More Info <i className="fa fa-github" aria-hidden="true"></i>
+                                    More Info <i className="fa fa-github" aria-hidden="true"></i>
+                                </a>
+                            </Button>
+                            <Button variant="primary">
+                                <a
+                                href="https://shoppingreact-flame.vercel.app/"
+                                target="_blank"
+                                rel="noreferrer"
+                                >
+                                    Visit <i className="fa-regular fa-eye" aria-hidden="true"></i>
                                 </a>
                             </Button>
                         </div>

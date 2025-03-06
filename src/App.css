@@ -306,6 +306,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects ************/
 
+.links-projects{
+  display: flex;
+  gap: 10px;
+}
+
 .links-projects button{
   height: 40px;
   background-color: transparent;
@@ -316,6 +321,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .links-projects button a{
   color: white;
   margin-top: 25px;
+}
+
+.pt-1 {
+  padding-top: .25rem !important;
 }
 
 .icons-proyect{
