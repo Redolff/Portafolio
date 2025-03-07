@@ -13,6 +13,7 @@ import mysql from "../assets/mysql.png";
 import typescript from "../assets/typescript.png"
 import tailwindcss from "../assets/tailwindcss.png"
 import javascript from "../assets/js.png"
+import google from "../assets/google.png"
 
 const Proyectos = () => {
 
@@ -34,6 +35,7 @@ const Proyectos = () => {
                         <div className="d-flex icons-proyect">
                             <img src={react} alt="react" />
                             <img src={typescript} alt="typescript" />
+                            <img src={google} alt="Google authenticator" />
                             <img src={css} alt="CSS" />
                             <img src={tailwindcss} alt="Tailwind CSS" />
                         </div>
