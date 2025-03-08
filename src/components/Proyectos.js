@@ -65,7 +65,7 @@ const Proyectos = () => {
             <Row className="individual-project d-flex mb-5">
                 <Col className="project-info">
                     <div>
-                        <h4>ShopCart</h4>
+                        <h4>ReactShop</h4>
                         <div className="d-flex icons-proyect">
                             <img src={react} alt="react" />
                             <img src={node} alt="NodeJS" />
